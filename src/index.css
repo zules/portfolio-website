@@ -1,1 +1,15 @@
 @import "tailwindcss";
+
+@theme {
+  --font-sans: "Telex", sans-serif;
+  --font-display: "Tektur", sans-serif;
+  --font-handwritten: "Gaegu", cursive;
+  --font-title: "Squada One", sans-serif;
+
+  --color-brand-splash: #56C7FF;
+  --color-brand-primary: #6904B7;
+  --color-brand-secondary: #730064;
+  --color-brand-dark: #3A285A;
+  --color-brand-light: #F2F8FD;
+  --color-brand-pale: #FBE6E6;
+}
