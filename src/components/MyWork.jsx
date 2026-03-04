@@ -1,4 +1,5 @@
 import SectionHeading from '../components/SectionHeading';
+import { NavHashLink } from 'react-router-hash-link';
 
 // 1. Create a quick sub-component for the cards to keep the main section clean
 const ProjectCard = ({ title, imageSrc }) => (
@@ -36,10 +37,12 @@ export default function MyWork() {
       <SectionHeading>My Work</SectionHeading>
 
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 lg:gap-30">
+        <NavHashLink to="/ClosetHelper#top">
         <ProjectCard 
           title="Closet Helper App" 
           imageSrc="/images/closet-helper-preview.webp" 
         />
+        </NavHashLink>
         <ProjectCard 
           title="WGU Design Capstone" 
           imageSrc="/images/wgu-capstone-preview.webp" 

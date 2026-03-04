@@ -1,6 +1,7 @@
 import SectionHeading from '../components/SectionHeading';
 import MyWork from '../components/MyWork';
 import FeatureCard from '../components/FeatureCard';
+import ContactSection from '../components/ContactSection';
 
 export default function Home() {
   return (
@@ -139,6 +140,8 @@ export default function Home() {
       </div>
 
     </section>
+
+    <ContactSection />
 
     </main>
   )
