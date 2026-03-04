@@ -6,7 +6,7 @@ import ContactSection from '../components/ContactSection';
 export default function Home() {
   return (
     <>
-    <main className="w-full flex flex-col items-center">
+    <main id="top" className="w-full flex flex-col items-center">
       <section className="px-10 pt-10 pb-10 lg:pb-52 lg:pt-32 w-full bg-brand-primary flex flex-col lg:flex-row justify-evenly items-center">
 
         <div className="rotate-[-11deg] origin-center text-center font-display font-black text-3xl xl:text-6xl leading-tight text-nowrap">
@@ -27,9 +27,9 @@ export default function Home() {
           
           {/* Hero Image */}
           <img 
-            className="absolute -top-1 -right-2 lg:-right-12 w-64 lg:w-96 max-w-none z-10" 
+            className="absolute -top-1 -right-2 lg:-right-12 w-64 lg:w-96 max-w-none z-10 animate-rock" 
             src="/images/me_illo_lofi.webp" 
-            alt="An illustration of Julia, a woman in a power wheelchair using a Jaco robotic arm and hold a digital stylus."
+            alt="An illustration of Julia, a woman in a power wheelchair using a Jaco robotic arm and holding a digital stylus."
           />
         </div>
 

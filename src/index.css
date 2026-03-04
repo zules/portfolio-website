@@ -13,3 +13,16 @@
   --color-brand-light: #F2F8FD;
   --color-brand-pale: #FBE6E6;
 }
+
+@keyframes rock {
+  0%, 100% {
+    transform: rotate(-6deg);
+  }
+  50% {
+    transform: rotate(4deg);
+  }
+}
+
+@utility animate-rock {
+  animation: rock 4s ease-in-out infinite;
+}

@@ -8,7 +8,7 @@ export default function PersonaDetails({
   frustrations = []
 }) {
   return (
-    <article className="flex max-w-sm flex-col items-center gap-3 rounded-xl p-1">
+    <article className="flex flex-1 lg:max-w-sm flex-col items-center gap-3 rounded-xl p-1">
       {/* Persona Header */}
       <header className="flex flex-col items-center gap-3">
         <h3 className="font-display text-lg text-brand-primary">{name}</h3>
