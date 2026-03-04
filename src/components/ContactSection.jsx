@@ -20,7 +20,7 @@ export default function ContactSection() {
         <ul className="flex flex-col items-start justify-center gap-8 lg:gap-4 self-end">
           <li>
             <a 
-              href="/Wroble_Ressume_2026.pdf" 
+              href="/Wroble_Resume_2026.pdf" 
               download 
               className="group flex items-center gap-2 lg:gap-5 rounded-md font-sans text-base text-black transition-colors hover:text-brand-primary focus:outline-none focus-visible:ring-2 focus-visible:ring-brand-secondary"
             >

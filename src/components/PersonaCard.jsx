@@ -8,7 +8,7 @@ export default function PersonaCard({ name, image, children }) {
 
       <img 
         src={image} 
-        alt={`Avatar of ${name}`} 
+        alt={`Illustrated portrait of ${name}`} 
         className="w-40 h-40 mx-auto rounded-full border border-black object-cover" 
       />
       <h3 className="font-handwritten text-4xl text-center mt-6 mb-4 text-black">

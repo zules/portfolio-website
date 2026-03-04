@@ -43,14 +43,18 @@ export default function MyWork() {
           imageSrc="/images/closet-helper-preview.webp" 
         />
         </NavHashLink>
+        <NavHashLink to="/WguCapstone#top">
         <ProjectCard 
           title="WGU Design Capstone" 
           imageSrc="/images/wgu-capstone-preview.webp" 
         />
+        </NavHashLink>
+        <NavHashLink to="/ComicBrick#top">
         <ProjectCard 
           title="Comic Brick" 
           imageSrc="/images/comic-brick-preview.webp" 
         />
+        </NavHashLink>
       </div>
 
     </section>

@@ -5,6 +5,7 @@ import ContactSection from '../components/ContactSection';
 
 export default function Home() {
   return (
+    <>
     <main className="w-full flex flex-col items-center">
       <section className="px-10 pt-10 pb-10 lg:pb-52 lg:pt-32 w-full bg-brand-primary flex flex-col lg:flex-row justify-evenly items-center">
 
@@ -134,15 +135,17 @@ export default function Home() {
           When I’m not creating for work, I’m creating for fun. Some of my other favorite things include black coffee, Star Trek, and Pokemon cards.
         </p>
         {/* Placeholder for your future illustration */}
-        <div className="w-20 h-20 bg-brand-dark flex-shrink-0 flex items-center justify-center text-white text-xs text-center p-2">
-          Future Illustration
+        <div className="w-30 bg-brand-dark flex-shrink-0 flex items-center justify-center text-white text-xs text-center py-5 px-2">
+          My portfolio is still mostly under construction. Come back soon to see some 3D assets live on the site!
         </div>
       </div>
 
     </section>
-
+</main>
+<footer>
     <ContactSection />
 
-    </main>
+    </footer>
+    </>
   )
 }
