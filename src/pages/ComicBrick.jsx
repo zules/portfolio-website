@@ -27,8 +27,8 @@ export default function ComicBrick() {
 
   return (
     <>
-    <main>
-      <PageTitle title="The Comic Brick" id="top" />
+    <main id="top" className="scroll-mt-24">
+      <PageTitle title="The Comic Brick" />
     <figure className="flex w-full items-center justify-center bg-brand-splash py-10">
       <img 
         src="/images/comic-brick-preview.webp" 

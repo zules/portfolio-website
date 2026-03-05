@@ -6,14 +6,14 @@ import ContactSection from '../components/ContactSection';
 export default function Home() {
   return (
     <>
-    <main id="top" className="w-full flex flex-col items-center">
-      <section className="px-10 pt-10 pb-10 lg:pb-52 lg:pt-32 w-full bg-brand-primary flex flex-col lg:flex-row justify-evenly items-center">
+    <main id="top" className="scroll-mt-24 w-full flex flex-col items-center">
+      <section className="px-10 pt-10 pb-10 lg:pb-52 lg:pt-32 w-full bg-[url('/images/purpletexture.jpg')] bg-repeat bg-purple-200/20 bg-blend-overlay flex flex-col lg:flex-row justify-evenly items-center">
 
         <div className="rotate-[-11deg] origin-center text-center font-display font-black text-3xl xl:text-6xl leading-tight text-nowrap">
           <h1 className="m-0">
             <span className="text-white">A </span>
             <span className="text-brand-pale">Cyborg’s<br/></span>
-            <span className="text-white">UX Engineering<br/>Portfolio!</span>
+            <span className="text-white">UX Design<br/>Portfolio!</span>
           </h1>
         </div>
 
@@ -88,13 +88,13 @@ export default function Home() {
                 CREDENTIALS
                 </h3>
             </div>
-          <p className="font-sans text-xs lg:text-sm text-brand-dark">
+          <div className="font-sans text-xs lg:text-sm text-brand-dark">
             <ul className="list-disc space-y-3 pl-2 list-outside lg:max-w-xs">
                 <li>BS User Experience Design (Western Governors University)</li>
                 <li>Google UX Design Certificate</li>
                 <li>Meta Front End Developer Certificate (in progress)</li>
             </ul>
-          </p>
+          </div>
         </div>
 
         {/* Top Skills */}
@@ -104,7 +104,7 @@ export default function Home() {
                 TOP SKILLS
                 </h3>
             </div>
-          <p className="font-sans text-xs lg:text-sm text-brand-dark">
+          <div className="font-sans text-xs lg:text-sm text-brand-dark">
             <ul className="list-disc space-y-3 pl-4 list-outside lg:max-w-xs">
                 <li>User Research</li>
                 <li>Equity-Focused Design</li>
@@ -113,7 +113,7 @@ export default function Home() {
                 <li>AI-Assisted Prototyping</li>
                 <li>3D Modeling (Blender)</li>
             </ul>
-          </p>
+          </div>
         </div>
       </div>
 

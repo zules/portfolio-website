@@ -49,8 +49,8 @@ export default function ClosetHelper() {
 
   return (
     <>
-    <main>
-      <PageTitle title="Closet Helper" id="top" />
+    <main id="top" className="scroll-mt-24">
+      <PageTitle title="Closet Helper" />
 
 
     <figure className="flex w-full items-center justify-center bg-brand-splash py-10">
@@ -65,7 +65,7 @@ export default function ClosetHelper() {
       <ProjectDetails items={closetHelperDetails} />
     </section>
 
-<div class="flex flex-col mx-auto max-w-6xl gap-4 lg:flex-row">
+<div className="flex flex-col mx-auto max-w-6xl gap-4 lg:flex-row">
       <PersonaCard 
         name="Charlie" 
         image="/images/persona-charlie.webp"
@@ -164,12 +164,12 @@ export default function ClosetHelper() {
 <svg 
   xmlns="http://www.w3.org/2000/svg" 
   viewBox="0 0 300 110" 
-  class="w-64 lg:w-3xl mx-auto text-slate-900 px-4"
+  className="w-64 lg:w-3xl mx-auto text-slate-900 px-4"
   fill="none" 
   stroke="currentColor" 
-  stroke-width="8" 
-  stroke-linecap="butt" 
-  stroke-linejoin="round"
+  strokeWidth="8" 
+  strokeLinecap="butt" 
+  strokeLinejoin="round"
   aria-labelledby="branch-arrow-title"
 >
   <path d="M 150 10 V 45 C 150 60, 80 50, 50 60 C 25 70, 25 80, 15 95" />

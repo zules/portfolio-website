@@ -27,8 +27,8 @@ export default function WguCapstone() {
 
   return (
     <>
-    <main>
-      <PageTitle title="WGU Design Capstone" id="top" />
+    <main id="top" className="scroll-mt-24">
+      <PageTitle title="WGU Design Capstone" />
     <figure className="flex w-full items-center justify-center bg-brand-splash py-10">
       <img 
         src="/images/wgu-capstone-preview.webp" 
